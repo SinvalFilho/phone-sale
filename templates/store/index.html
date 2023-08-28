@@ -1,0 +1,28 @@
+{% extends 'store/base.html' %}
+{% load static %}
+{% block content %}
+
+    <main>
+        <div id="cards">
+            <ul id="cards_list" class="list-style-none">
+                {% if cards %}
+                {% for phone in cards%}
+                <li id="cards_phone"{{ forloop.counter }}>
+                    <div class="phone">
+                        <a href="{% url 'index' %}">
+                            <img src="{% static '/assets/img/' %}{{ phone.foto }}" alt="img_produto">
+                        </a>
+                        <p>{{ phone.marca }}</p>
+                        <p>{{ phone.modelo }}</p>
+                        <p>{{ phone.preco }} R$ </p>
+                    </div>
+                </li>
+                {% endfor %}
+                {% else %}
+                {% endif %}
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% load static %}
+<header>
+    <div id="logo">
+        <a href="{% url 'index'%}"><img src="{% static '/assets/img/logo.png' %}" alt="logo do site"></a>
+        
+    </div>
+
+    <div id="icon-menu">
+        <a href="{% url 'login' %}">
+            <img src="{% static '/assets/icon/Profile.png' %}" alt="logo de usuário">
+        </a>
+        <img src="{% static '/assets/icon/Shop.png' %}" alt="logo de shopping">
+        <img src="{% static '/assets/icon/Search.png' %}" alt="logo de busca">
+    </div>
+</header>

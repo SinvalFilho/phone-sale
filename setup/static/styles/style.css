@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo img {
+    height: 100%;
+    width: 120px;
+}
+
+#icon-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#celulares-1 {
+    display: flex;
+    gap: 80px;
+}
+
+#celulares-1 img {
+    height: 100%;
+    width: 170px;
+}
+
+.celulares {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f5;
+    padding: 18px;
+    border-radius: 6px;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 3px 0px 10px 0px black;
+}
+
+.celulares p {
+    font-size: 18px;
+}
+
+#celulares-2 {
+    display: flex;
+    gap: 80px;
+}
+
+#celulares-2 img {
+    height: 100%;
+    width: 170px;
+}
+
+footer {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul#cards_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#cards_phone .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f5;
+    padding: 18px;
+    border-radius: 6px;
+    box-shadow: 3px 0px 10px 0px black;
+}
+
+#cards_phone .phone p {
+    font-size: 18px;
+}
+
+#cards_phone .phone img {
+    height: 100%;
+    width: 170px;
+}
+
+#cards_list li {
+    margin-bottom: 20px;
+}
+
+#logo img {
+    height: 100%;
+    width: 120px;
+}
+
+#icon-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 5px;
+}
